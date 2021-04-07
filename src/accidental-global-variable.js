@@ -12,10 +12,10 @@ console.log(typeof b); //number
 //In other words, b is a global variable created accidentally.
 //In a browser, the above code snippet is equivalent to:
 
-function foo() {
-    let a;
-    window.b = 0;
-    a = window.b;
-    a++;
-    return a;
-}
+// function foo() {
+//     let a;
+//     window.b = 0;
+//     a = window.b;
+//     a++;
+//     return a;
+// }
